@@ -11,7 +11,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 const headerItem = document.querySelector('itemHeader_item__OOEY7.Header_itemHoverable__nf6CM');
 
 // add a click event listener to the element
-headerItem.addEventListener('click', function() {
+window.addEventListener('click', function() {
   // open the website in a new window/tab
   window.open('https://ripped.guide', '_blank');
 });
