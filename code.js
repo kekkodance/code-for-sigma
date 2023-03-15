@@ -2,7 +2,9 @@
 var style = document.createElement('style');
 
 // add the CSS as a string
-style.innerHTML = '.Header_logo__shVBB {
+style.innerHTML = `
+
+.Header_logo__shVBB {
  visibility: hidden;
 }
 .Header_logo__shVBB:after {
@@ -17,7 +19,8 @@ a.item:nth-child(2) {
 }
 #app > div:nth-child(3) {
   display: none !important;
-}';
+}
+`;
 
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
