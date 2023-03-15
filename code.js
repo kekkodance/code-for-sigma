@@ -5,7 +5,7 @@ var style = document.createElement('style');
 style.innerHTML = `
 
 .Header_logo__shVBB {
- visibility: hidden;
+ visibility: hidden !important;
 }
 .Header_logo__shVBB:after {
  visibility: visible;
@@ -17,7 +17,10 @@ style.innerHTML = `
 a.item:nth-child(2) {
   user-select: none !important;
 }
-#app > div:nth-child(3) {
+.fluid.button.ActionsStep_button__2Cph7 {
+  display: none !important;
+}
+.menu a.item.UserStep_menuItem__5pvtT:nth-child(1) {
   display: none !important;
 }
 `;
