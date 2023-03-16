@@ -5,17 +5,19 @@ var style = document.createElement('style');
 style.innerHTML = `
 
 .Header_logo__shVBB {
- visibility: hidden !important;
+  visibility: hidden !important;
 }
 .Header_logo__shVBB:after {
- visibility: visible;
- position: absolute;
- top: 0;
- left: 1rem;
- content: "TheSigmaArts";
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  content: "TheSigmaArts";
+  font-size: clamp(16px, 3vw, 20px);
 }
 a.item:nth-child(2) {
   user-select: none !important;
+  font-size: clamp(10px, 3vw, 15px);
 }
 .fluid.button.ActionsStep_button__2Cph7 {
   display: none !important;
