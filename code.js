@@ -23,6 +23,10 @@ a.item:nth-child(2) {
 .menu a.item.UserStep_menuItem__5pvtT:nth-child(1) {
   display: none !important;
 }
+.item.Header_item__OOEY7.Header_itemHoverable__nf6CM:nth-child(1) {
+  padding: 0px;
+  bottom: 0.5px
+}
 `;
 
 // add it to the head
