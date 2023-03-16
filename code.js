@@ -39,6 +39,9 @@ a.item:nth-child(2) {
 .Header_itemHoverable__nf6CM:hover {
   background: none !important;
 }
+span.Filters_filter__Y8tDL:nth-child(1) > button:nth-child(1) {
+  display: none !important;
+}
 `;
 
 // add it to the head
