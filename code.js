@@ -36,6 +36,9 @@ a.item:nth-child(2) {
   position: relative;
   left: 8px;
 }
+.Header_itemHoverable__nf6CM:hover {
+  background: none !important;
+}
 `;
 
 // add it to the head
