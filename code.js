@@ -22,10 +22,32 @@ a.item:nth-child(2) {
 .fluid.button.ActionsStep_button__2Cph7 {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 .menu a.item.UserStep_menuItem__5pvtT:nth-child(1) {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 .menu a.item.UserStep_menuItem__5pvtT:nth-child(2) {
   font-size: 1rem;
@@ -122,10 +144,32 @@ h2.ui.inverted.header.Login_descriptionSubtitle__F9udW:before {
 div.ui.segment.active.tab.AccountPane_wrapper__pWfwV {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 div.ui.segment.active.tab.PreferencesPane_wrapper__OLqz6 {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 `;
 
