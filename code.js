@@ -42,6 +42,37 @@ a.item:nth-child(2) {
 span.Filters_filter__Y8tDL:nth-child(1) > button:nth-child(1) {
   display: none !important;
 }
+div.Login_inputWrapper__SbI14:nth-child(1) > div:nth-child(1) {
+  display: none;
+}
+div.Login_inputWrapper__SbI14:nth-child(1):before {
+  content: "⤥ Type 'viewer' here ⤦";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  position: relative;
+  bottom: 4px;
+}
+div.Login_inputWrapper__SbI14:nth-child(2) > div:nth-child(1) {
+  display: none;
+}
+div.Login_inputWrapper__SbI14:nth-child(2):before {
+  content: "⤥ Then, type 'Queue1234' here ⤦";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  position: relative;
+  bottom: 4px;
+}
+div.Login_inputWrapper__SbI14:nth-child(2) {
+  margin-bottom: 25px !important;
+}
+.content > p:nth-child(1) {
+  display: none;
+}
+.content:after {
+  content: "You made a typo. Try again.";
+}
 `;
 
 // add it to the head
