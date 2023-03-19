@@ -73,6 +73,22 @@ div.Login_inputWrapper__SbI14:nth-child(2) {
 .content:after {
   content: "You made a typo. Try again.";
 }
+.Login_wrapper__zYzT6 {
+  background: #22252a !important;
+}
+.Login_formTitle__xnYyM {
+  color: white !important;
+}
+.Login_inputWrapper__SbI14 {
+  color: white !important;
+}
+button.ui {
+  background-color: #fe4678 !important;
+}
+button.ui:hover {
+  background-color: #f42160 !important;
+  transition: background .3s ease;
+}
 `;
 
 // add it to the head
