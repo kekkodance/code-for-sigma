@@ -114,6 +114,9 @@ h2.ui.inverted.header.Login_descriptionSubtitle__F9udW:before {
   visibility: visible;
   content: "Powered by Ripped.guide"
 }
+.Popup_wrapper__gjV0g {
+  padding: 0 12px 6px !important;
+}
 `;
 
 // add it to the head
