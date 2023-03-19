@@ -21,9 +21,11 @@ a.item:nth-child(2) {
 }
 .fluid.button.ActionsStep_button__2Cph7 {
   display: none !important;
+  visibility: hidden !important;
 }
 .menu a.item.UserStep_menuItem__5pvtT:nth-child(1) {
   display: none !important;
+  visibility: hidden !important;
 }
 .menu a.item.UserStep_menuItem__5pvtT:nth-child(2) {
   font-size: 1rem;
@@ -116,6 +118,14 @@ h2.ui.inverted.header.Login_descriptionSubtitle__F9udW:before {
 }
 .Popup_wrapper__gjV0g {
   padding: 0 12px 6px !important;
+}
+div.ui.segment.active.tab.AccountPane_wrapper__pWfwV {
+  display: none !important;
+  visibility: hidden !important;
+}
+div.ui.segment.active.tab.PreferencesPane_wrapper__OLqz6 {
+  display: none !important;
+  visibility: hidden !important;
 }
 `;
 
