@@ -67,10 +67,10 @@ div.Login_inputWrapper__SbI14:nth-child(2):before {
 div.Login_inputWrapper__SbI14:nth-child(2) {
   margin-bottom: 25px !important;
 }
-.content > p:nth-child(1) {
+html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div div.ui.error.visible.message div.content > p:nth-child(1) {
   display: none;
 }
-.content:after {
+html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div div.ui.error.visible.message div.content:after {
   content: "You made a typo. Try again.";
 }
 .Login_wrapper__zYzT6 {
@@ -88,10 +88,10 @@ div.Login_inputWrapper__SbI14:nth-child(2) {
 .Login_inputWrapper__SbI14 {
   color: white !important;
 }
-button.ui {
+html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div form.ui.large.form div.field button.ui.large.icon.primary.right.floated.labeled.button {
   background-color: #fe4678 !important;
 }
-button.ui:hover {
+html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.six.wide.computer.five.large.screen.sixteen.mobile.tablet.four.widescreen.column div.ui.middle.aligned.grid.Login_fullHeightPaddingFix__qqodI div.column div.Login_loginWrapper__XW1w2 div form.ui.large.form div.field button.ui.large.icon.primary.right.floated.labeled.button:hover {
   background-color: #f42160 !important;
   transition: background .3s ease;
 }
