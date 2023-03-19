@@ -100,6 +100,20 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+h1.ui.inverted.header.Login_descriptionTitle__db6ho {
+  visibility: hidden;
+}
+h1.ui.inverted.header.Login_descriptionTitle__db6ho:before {
+  content: "TheSigmaArts' Kanban Board" !important;
+  visibility: visible;
+}
+h2.ui.inverted.header.Login_descriptionSubtitle__F9udW {
+  visibility: hidden;
+}
+h2.ui.inverted.header.Login_descriptionSubtitle__F9udW:before {
+  visibility: visible;
+  content: "Powered by Ripped.guide"
+}
 `;
 
 // add it to the head
