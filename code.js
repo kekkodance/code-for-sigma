@@ -77,7 +77,13 @@ div.Login_inputWrapper__SbI14:nth-child(2) {
   background: #22252a !important;
 }
 .Login_formTitle__xnYyM {
-  color: white !important;
+  background-image: url(https://github.com/kekkodance/code-for-sigma/raw/main/logo.png);
+  padding-top: 150px !important;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-position: center;
 }
 .Login_inputWrapper__SbI14 {
   color: white !important;
