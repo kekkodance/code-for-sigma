@@ -95,6 +95,11 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
   background-color: #f42160 !important;
   transition: background .3s ease;
 }
+.Login_cover__6nzRu {
+    background: url(https://github.com/kekkodance/code-for-sigma/raw/main/1671785941.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
 `;
 
 // add it to the head
