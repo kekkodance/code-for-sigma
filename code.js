@@ -77,7 +77,7 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
   background: #22252a !important;
 }
 .Login_formTitle__xnYyM {
-  background-image: url(https://github.com/kekkodance/code-for-sigma/raw/main/logo.png);
+  background-image: url(https://cdn.jsdelivr.net/gh/kekkodance/code-for-sigma@main/logo.png);
   padding-top: 150px !important;
   background-repeat: no-repeat;
   text-indent: 100%;
@@ -96,7 +96,7 @@ html body#app div#root div.Login_wrapper__zYzT6.Login_fullHeight__Fded8 div.ui.m
   transition: background .3s ease;
 }
 .Login_cover__6nzRu {
-    background: url(https://github.com/kekkodance/code-for-sigma/raw/main/1671785941.png) !important;
+    background: url(https://cdn.jsdelivr.net/gh/kekkodance/code-for-sigma@main/1671785941.png) !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
