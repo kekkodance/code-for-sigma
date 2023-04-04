@@ -9,10 +9,9 @@ style.innerHTML = `
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
 
-wait(1000);
 
 // automatic login using viewer credentials
-if (location.pathname === "/login") {
+setTimeout(() => {  if (location.pathname === "/login") {
 function setReactInputValue(input, value) {
   const previousValue = input.value;
 
@@ -34,4 +33,4 @@ setReactInputValue(passwordInput, 'Queue1234');
 
 document.querySelector('button').click(); 
   
-} 
+}  }, 1000); 
