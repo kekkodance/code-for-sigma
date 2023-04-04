@@ -56,6 +56,7 @@ a.item:nth-child(2) {
 }
 .Header_itemHoverable__nf6CM:hover {
   background: none !important;
+  cursor: default !important;
 }
 span.Filters_filter__Y8tDL:nth-child(1) > button:nth-child(1) {
   display: none !important;
@@ -133,7 +134,19 @@ h2.ui.inverted.header.Login_descriptionSubtitle__F9udW:before {
   content: "Powered by Ripped.guide"
 }
 .Popup_wrapper__gjV0g {
-  padding: 0 12px 6px !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 div.ui.segment.active.tab.AccountPane_wrapper__pWfwV {
   display: none !important;
