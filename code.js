@@ -9,6 +9,13 @@ div[class~=ui][class~=segment][class~=active][class~=tab][class~=AccountPane_wra
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
 
+// change favicon
+var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+link.type = 'image/png';
+link.rel = 'shortcut icon';
+link.href = 'https://cdn.jsdelivr.net/gh/kekkodance/code-for-sigma@main/favicon.png';
+document.getElementsByTagName('head')[0].appendChild(link);
+
 // wait for element
 function waitForElm(selector) {
     return new Promise(resolve => {
