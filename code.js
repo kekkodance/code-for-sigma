@@ -52,5 +52,5 @@ const passwordInput = document.querySelector('[name="password"]');
 setReactInputValue(passwordInput, 'Queue1234');
 
 document.querySelector('button').click(); 
-  
+}
 });
