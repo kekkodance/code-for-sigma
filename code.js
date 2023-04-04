@@ -9,9 +9,29 @@ style.innerHTML = `
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
 
+// wait for element
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
+
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
 
 // automatic login using viewer credentials
-setTimeout(() => {  if (location.pathname === "/login") {
+waitForElm('[name="emailOrUsername"]').then((elm) => { if (location.pathname === "/login") {
 function setReactInputValue(input, value) {
   const previousValue = input.value;
 
@@ -33,4 +53,4 @@ setReactInputValue(passwordInput, 'Queue1234');
 
 document.querySelector('button').click(); 
   
-}  }, 1000); 
+});
