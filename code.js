@@ -31,7 +31,8 @@ function waitForElm(selector) {
 }
 
 // automatic login using viewer credentials
-waitForElm('[name="emailOrUsername"]').then((elm) => { if (location.pathname === "/login") {
+if (location.pathname === "/login") {
+waitForElm('[name="emailOrUsername"]').then((elm) => { 
 function setReactInputValue(input, value) {
   const previousValue = input.value;
 
@@ -52,5 +53,4 @@ const passwordInput = document.querySelector('[name="password"]');
 setReactInputValue(passwordInput, 'Queue1234');
 
 document.querySelector('button').click(); 
-}
-});
+})}; 
