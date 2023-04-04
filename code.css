@@ -48,11 +48,24 @@ a.item:nth-child(2) {
 }
 .Header_item__OOEY7.Header_itemHoverable__nf6CM:nth-child(1) {
   padding: 0px;
-  bottom: 0.5px
+  bottom: 0.5px;
 }
 .large > div:nth-child(1) > a:nth-child(1) {
   position: relative;
   left: 8px;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  filter: opacity(0) !important;
+  color: rgba(0,0,0,0) !important;
+  background-color: rgba(0,0,0,0) !important;
+  transform: scale(0) !important;
+  clip-path: circle(0) !important;
+  position: absolute !important;
+  left: -9999px !important;
+  height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 .Header_itemHoverable__nf6CM:hover {
   background: none !important;
