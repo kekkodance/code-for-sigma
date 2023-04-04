@@ -8,3 +8,28 @@ style.innerHTML = `
 
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
+
+// automatic login using viewer credentials
+if (location.pathname === "/login") {
+function setReactInputValue(input, value) {
+  const previousValue = input.value;
+
+  input.value = value;
+
+  const tracker = input._valueTracker;
+  if (tracker) {
+    tracker.setValue(previousValue);
+  }
+
+  input.dispatchEvent(new Event('change', { bubbles: true }));
+}
+
+const emailOrUsernameInput = document.querySelector('[name="emailOrUsername"]');
+setReactInputValue(emailOrUsernameInput, 'viewer')
+
+const passwordInput = document.querySelector('[name="password"]');
+setReactInputValue(passwordInput, 'Queue1234');
+
+document.querySelector('button').click(); 
+  
+} 
