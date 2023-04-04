@@ -9,6 +9,8 @@ style.innerHTML = `
 // add it to the head
 document.getElementsByTagName('head')[0].appendChild(style);
 
+wait(1000);
+
 // automatic login using viewer credentials
 if (location.pathname === "/login") {
 function setReactInputValue(input, value) {
