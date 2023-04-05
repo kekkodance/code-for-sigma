@@ -38,10 +38,16 @@ function waitForElm(selector) {
 }
 
 // go automatically in sigma's board
-
 if (location.pathname === "/") { 
   waitForElm('[class="Projects_cardOverlay__WnVVq"]').then((elm) => { document.querySelector('div.Projects_cardOverlay__WnVVq').click(); 
 })};
+
+// avoid back button 
+history.pushState(null, document.title, location.href);
+window.addEventListener('popstate', function (event)
+{
+  history.pushState(null, document.title, location.href);
+});
 
 // automatic login using viewer credentials
 waitForElm('[name="emailOrUsername"]').then((elm) => { if (location.pathname === "/login") {
