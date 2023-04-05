@@ -40,8 +40,8 @@ function waitForElm(selector) {
 // go automatically in sigma's board
 
 if (location.pathname === "/") { 
-  document.querySelector('div.Projects_cardOverlay__WnVVq').click(); 
-} 
+  waitForElm('[class="Projects_cardOverlay__WnVVq"]').then((elm) => { document.querySelector('div.Projects_cardOverlay__WnVVq').click(); 
+})};
 
 // automatic login using viewer credentials
 waitForElm('[name="emailOrUsername"]').then((elm) => { if (location.pathname === "/login") {
