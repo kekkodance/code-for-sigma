@@ -196,3 +196,10 @@ input::selection, textarea::selection {
   background-color: #f42160;
   color: #fff;
 }
+div.Board_lists__gV2Uz {    
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#app .Fixed_wrapper__vHnDV {
+  background: rgba(0, 0, 0, 0.5);
+}
